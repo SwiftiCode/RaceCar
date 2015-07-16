@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: Properties
+    @IBOutlet weak var brandLabel: UILabel!
+    @IBOutlet weak var colorLabel: UILabel!
+    @IBOutlet weak var topSpeedLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +25,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // MARK: Actions
+    @IBAction func honkTapped(sender: AnyObject) {
+        
+        let myCar = RaceCar()
+        brandLabel.text = myCar.brand
+        colorLabel.text = myCar.color
+        topSpeedLabel.text = "\(myCar.topSpeed)"
+        myCar.honk()
+        
+    }
+    
 
 }
 

@@ -13,6 +13,7 @@
 		EC92A5EA1B57FF8F00A05DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC92A5E91B57FF8F00A05DF9 /* Assets.xcassets */; };
 		EC92A5ED1B57FF8F00A05DF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC92A5EB1B57FF8F00A05DF9 /* LaunchScreen.storyboard */; };
 		EC92A5F81B57FF8F00A05DF9 /* RaceCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92A5F71B57FF8F00A05DF9 /* RaceCarTests.swift */; };
+		EC92A6031B5801F100A05DF9 /* RaceCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92A6021B5801F100A05DF9 /* RaceCar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		EC92A5F31B57FF8F00A05DF9 /* RaceCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaceCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC92A5F71B57FF8F00A05DF9 /* RaceCarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceCarTests.swift; sourceTree = "<group>"; };
 		EC92A5F91B57FF8F00A05DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC92A6021B5801F100A05DF9 /* RaceCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceCar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				EC92A5E21B57FF8F00A05DF9 /* AppDelegate.swift */,
 				EC92A5E41B57FF8F00A05DF9 /* ViewController.swift */,
 				EC92A5E61B57FF8F00A05DF9 /* Main.storyboard */,
+				EC92A6021B5801F100A05DF9 /* RaceCar.swift */,
 				EC92A5E91B57FF8F00A05DF9 /* Assets.xcassets */,
 				EC92A5EB1B57FF8F00A05DF9 /* LaunchScreen.storyboard */,
 				EC92A5EE1B57FF8F00A05DF9 /* Info.plist */,
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC92A5E51B57FF8F00A05DF9 /* ViewController.swift in Sources */,
+				EC92A6031B5801F100A05DF9 /* RaceCar.swift in Sources */,
 				EC92A5E31B57FF8F00A05DF9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

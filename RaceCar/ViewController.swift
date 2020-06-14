@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
 
     // MARK: Actions
-    @IBAction func honkTapped(sender: AnyObject) {
+    @IBAction func honkTapped(_ sender: AnyObject) {
         
         let myCar = RaceCar()
         brandLabel.text = myCar.brand
